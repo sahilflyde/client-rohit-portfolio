@@ -1,0 +1,52 @@
+{
+  "name": "about",
+  "route": "about",
+  "components": [
+    {
+      "type": "grid-section",
+      "props": {
+        "columns": 3,
+        "gap": "24px",
+        "minColWidth": "300px",
+        "showHeader": true,
+        "label": "Dynamic Label",
+        "title": "Dynamic Title",
+        "subtitle": "Dynamic Subtitle"
+      },
+      "children": [
+        {
+          "type": "image-card",
+          "props": {
+            "heading": "Grid Image",
+            "description": "Inside Grid",
+            "imageLink": "https://ik.imagekit.io/flyde/Hirezy/Widget.png"
+          }
+        },
+        {
+          "type": "image-card",
+          "props": {
+            "heading": "Grid Image",
+            "description": "Inside Grid",
+            "imageLink": "https://ik.imagekit.io/flyde/Hirezy/Widget.png"
+          }
+        },
+        {
+          "type": "image-card",
+          "props": {
+            "heading": "Grid Image",
+            "description": "Inside Grid",
+            "imageLink": "https://ik.imagekit.io/flyde/Hirezy/Widget.png"
+          }
+        },
+        {
+          "type": "image-card",
+          "props": {
+            "heading": "Grid Image",
+            "description": "Inside Grid",
+            "imageLink": "https://ik.imagekit.io/flyde/Hirezy/Widget.png"
+          }
+        }
+      ]
+    }
+  ]
+}
